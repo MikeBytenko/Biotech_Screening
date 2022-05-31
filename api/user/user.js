@@ -2,7 +2,7 @@ const User = require('../../models/user');
 const bcrypt = require('bcrypt');
 const { createUserSchema, updateUserSchema, loginUserSchema } = require("../../validations/user");
 const { generateToken } = require('../../lib/genTok');
-const { validation } = require("../../middleware/validation_joi");
+const { validation } = require("../../middlewares/validation_joi");
 const router = require('express').Router();
 
 

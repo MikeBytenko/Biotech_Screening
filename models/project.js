@@ -43,7 +43,7 @@ const ProjectSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-ProjectSchema.statiсs.format = project => {
+ProjectSchema.static.format = project => {
   return {
     date: project.date,
     studyYear: project.studyYear,

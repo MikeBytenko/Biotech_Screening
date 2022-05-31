@@ -5,7 +5,7 @@ const ImagesSchema = new mongoose.Schema(
   {
     note: {
       type: Schema.Types.ObjectId,
-      ref: "User",
+      ref: "Notes",
 
       required: true,
     },

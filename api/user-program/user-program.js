@@ -2,7 +2,6 @@ const router = require('express').Router();
 const Program = require('../../models/user-programs');
 const User = require('../../models/user');
 const { json } = require('express/lib/response');
-const mongoose = require(mongoose);
 
 router.get('/', read)
 router.post('/', create)

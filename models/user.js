@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const NotesSchema = require('./notes').schema
-const UserProgramsSchema = require('./user-programs')
-const UserProjectsSchema = require('./user-projects')
+const UserProgramsSchema = require('./user-programs').schema
+const UserProjectsSchema = require('./user-projects').schema
 
 const UserSchema = new mongoose.Schema(
     {

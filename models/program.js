@@ -23,7 +23,7 @@ const ProgramsSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-ProgramsSchema.statiсs.format = program => {
+ProgramsSchema.static.format = program => {
   return {
     titleOfCourse: program.titleOfCourse,
     forGroups: program.forGroups
